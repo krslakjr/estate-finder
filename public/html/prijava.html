@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/prijava.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+    <script src="../scripts/PoziviAjax.js"></script>
+    <title>Prijava</title>
+  </head>
+  <body>
+    <div id="meni-container"></div>
+    <br />
+    <br />
+    <!-- Forma za log-in -->
+    <form id="loginForm" action="/login" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Prijava</button>
+    </form>
+  </body>
+</html>

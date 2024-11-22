@@ -1,0 +1,124 @@
+    /* Stil za grid listu */
+    #Stan {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Automatski broj kolona sa minimalnom širinom od 300px */
+      grid-gap: 20px; /* Razmak između stavki */
+    }
+    
+    #filtriraniNekretnine {
+      
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Automatski broj kolona sa minimalnom širinom od 300px */
+        grid-gap: 20px; /* Razmak između stavki */
+      
+    }
+    /* Stil za stavke u grid listi */
+    .grid-item {
+      border: 1px solid #ccc; /* Ivica za svaku stavku */
+      padding: 10px; /* Razmak oko sadržaja stavke */ 
+      text-align: center;
+      background-color: white;
+    }
+  
+    .grid-item2 {
+      border: 1px solid #ccc; /* Ivica za svaku stavku */
+      padding: 10px; /* Razmak oko sadržaja stavke */
+      text-align: center;
+      background-color: powderblue;
+    }
+  
+    .grid-item3{
+      border: 1px solid #ccc; /* Ivica za svaku stavku */
+      padding: 10px; /* Razmak oko sadržaja stavke */
+      text-align: center;
+      background-color: green;
+    }
+  
+    /* Prilagođavanje broja kolona na manjim ekranima */
+    @media (max-width: 900px) {
+      .grid-list {
+        grid-template-columns: repeat(2, 1fr); /* Dve kolone na ekranima manjim od 900px */
+      }
+    }
+  
+    /* Prikazivanje stavki jedna ispod druge na ekranima manjim od 400px */
+    @media (max-width: 400px) {
+      .grid-list {
+        grid-template-columns: 1fr; /* Jedna kolona na ekranima manjim od 400px */
+      }
+    }
+  
+     /* Stil za grid listu */
+     #Kuca {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Automatski broj kolona sa minimalnom širinom od 300px */
+      grid-gap: 20px; /* Razmak između stavki */
+    }
+  
+    #Pp {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Automatski broj kolona sa minimalnom širinom od 300px */
+      grid-gap: 20px; /* Razmak između stavki */
+    }
+  
+    
+  body{
+      background-color: #fdf1d3;
+      font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+    /* Stil za kvadratnu sliku */
+    .grid-item img, .grid-item2 img, .grid-item3 img {
+      max-width: 100%; /* Maksimalna širina slike */
+      height: auto; /* Automatsko prilagođavanje visine slike */
+      width: 120px; /* Širina slike (u ovom slučaju 100px) */
+      height: 90px; /* Visina slike (u ovom slučaju 100px) */
+    }
+  
+  
+  .grid-item p.prvidio, .grid-item2 p.prvidio, .grid-item3 p.prvidio{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: left;
+  }
+  .grid-item p.drugidio, .grid-item2 p.drugidio, .grid-item3 p.drugidio{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: right;
+  }
+  .kuca{
+    color: blue;
+  }
+  .pp{
+    color: #66ff00;
+  }
+  h1{
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      color: #e75480;
+  }
+  
+  /* Dugme mi falilo */
+  .grid-item button, .grid-item2 button , .grid-item3 button{
+    display: block;
+    margin: 0 auto; /* Centriranje dugmeta horizontalno */
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+  
+  

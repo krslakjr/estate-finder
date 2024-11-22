@@ -1,0 +1,87 @@
+body{
+    background-color: #fdf1d3;
+}
+
+h3{
+    text-align: left;
+    margin-left: 15%;
+}
+
+#osnovno,#osnovno1,#osnovno2,#osnovno3,#osnovno4,#osnovno5,#osnovno6,#osnovno7,#osnovno8,#osnovno9,#osnovno10,#osnovno11,#osnovno12,#osnovno13,#osnovno14,#osnovno15,#osnovno16,#osnovno17 {
+    text-align: center;
+}
+#osnovno img, #osnovno1 img,#osnovno2 img,#osnovno3 img,#osnovno4 img,#osnovno5 img,#osnovno6 img,#osnovno7 img,#osnovno8 img,#osnovno9 img,#osnovno10 img, #osnovno11 img,#osnovno12 img,#osnovno13 img,#osnovno14 img,#osnovno15 img,#osnovno16 img,#osnovno17 img{
+    max-width: 100%; /* Maksimalna širina slike */
+    height: 250px; /* Automatsko prilagođavanje visine slike */
+    width: 380px; /* Širina slike (u ovom slučaju 100px) */
+    margin: 25px auto;
+}
+
+p{
+    text-align: left;
+    margin-left: 15%;
+}
+
+table {
+    width: 70%; /* Opciono, da biste postavili širinu cele tabele */
+    margin-left: 15%;
+}
+
+table td:nth-child(2) {
+    width: 30%; /* Postavljamo širinu druge kolone na 20% */
+  }
+  
+
+  tr {
+    height: 75px; /* Postavljanje visine redova na 50 piksela */
+  }
+
+  #upiti,#upiti1,#upiti2,#upiti3,#upiti4,#upiti5,#upiti6,#upiti7,#upiti8,#upiti9,#upiti10,#upiti11,#upiti12,#upiti13,#upiti14,#upiti15,#upiti16,#upiti17 {
+    margin-left: 15%;
+    width: 840px; /* Prilagodite širinu div elementa prema potrebi */
+  }
+  
+  .lista-upita {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .korisnik {
+    border: 1px solid black; /* Crna ivica debljine 1px za svaki element liste */
+    padding: 10px; /* Dodatni razmak unutar svakog elementa liste */
+    margin: 20px 0; /* Razmak između elemenata liste */
+    background-color: white;
+  }
+  
+  .korisnik p {
+    margin: 0;
+  }
+  .spacer{
+    height: 20px;
+  }
+
+  .dizajn {
+    background-color: #ffffff; /* Postavite željenu boju pozadine */
+    border: 1px solid #333; /* Postavite debljinu i boju okvira */
+    padding: 10px; /* Postavite razmak unutar kontejnera */
+    width: 1000px; /* Postavite željenu širinu u pikselima */
+    height: 1100px; /* Postavite želenu visinu u pikselima */
+    margin: 0 auto;
+}
+
+.dizajn2{
+    background-color: powderblue; /* Postavite željenu boju pozadine */
+    border: 1px solid #333; /* Postavite debljinu i boju okvira */
+    padding: 10px; /* Postavite razmak unutar kontejnera */
+    width: 1000px; /* Postavite željenu širinu u pikselima */
+    height: 1100px; /* Postavite želenu visinu u pikselima */
+    margin: 0 auto;
+}
+.dizajn3{
+    background-color: green; /* Postavite željenu boju pozadine */
+    border: 1px solid #333; /* Postavite debljinu i boju okvira */
+    padding: 10px; /* Postavite razmak unutar kontejnera */
+    width: 1000px; /* Postavite željenu širinu u pikselima */
+    height: 1100px; /* Postavite želenu visinu u pikselima */
+    margin: 0 auto;
+}

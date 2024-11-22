@@ -1,0 +1,38 @@
+
+body{
+    background-color: #fdf1d3;
+}
+
+
+#meni{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: pink;
+}
+#meni a{
+    text-decoration: none;
+    color: inherit;
+}
+#meni li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    color: black;
+    padding: 0.5rem;
+}
+
+#meni li:hover{
+    color: #ff9900;
+}
+
+#meni ul{
+    margin: 1px;
+    padding: 10px;
+}

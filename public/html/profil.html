@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/profil.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+    <title>Profil</title>
+  </head>
+  <body>
+    <div id="meni-container"></div>
+    <br />
+    <div class="slika"><img src="../img/profil.jpg" alt="Slika profila" /></div>
+
+    <br />
+    <br />
+    <table>
+      <tr>
+        <td><b>Ime</b></td>
+        <td><input type="text" id="ime" name="ime" /></td>
+      </tr>
+      <tr>
+        <td><b>Prezime</b></td>
+        <td><input type="text" id="prezime" name="prezime" /></td>
+      </tr>
+      <tr>
+        <td><b>Username</b></td>
+        <td><input type="text" id="username" name="username" /></td>
+      </tr>
+      <tr>
+        <td><b>Password</b></td>
+        <td><input type="text" id="password" name="password" /></td>
+      </tr>
+    </table>
+  </body>
+</html>
